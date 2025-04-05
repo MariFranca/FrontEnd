@@ -1,0 +1,56 @@
+.div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 300px;
+    height: 110px;
+    /* Overflow: Visible: valor padrão. Hidden: o excedente não é exibido. 
+    Scroll: gera uma barra de scroll nos dois eixos (x/y). Auto: gera o scroll apenas no eixo necessário. */
+    overflow: hidden;
+    /* inserindo margem e espaçamento */
+    margin: 50px 10px 12px 15px;
+    padding: 5px 10px 12px 15px;
+
+    border-top: groove 10px red;
+    border-right: ridge 7px cyan;
+    border-bottom: solid 7px green;
+    border-left: solid 12px yellow;
+
+    border-radius: 100%;
+p{
+    display: inline;
+    background-color: yellow;
+}
+
+span{
+    display: block;
+    background-color: gray;
+}
+p {
+    font-size: 35px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.azul {
+    border: solid 4px blue;
+    background-color: lightblue;
+}
+.amarelo {
+    border: solid 4px red;
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+        
+
+

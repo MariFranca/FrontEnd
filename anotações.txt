@@ -1,4 +1,0 @@
-front:
-()-Isolando
-{}-Conteudo
-[]-Atributo
